@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.RandomWord</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/randomwords</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Random Word is a simple tool for getting random words. It returns a random word.</Description>
+    <RepositoryUrl>https://github.com/apiverve/randomwords-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>random word; random words; random word generator; random words generator; random word api; random words api; random word tool; random words tool; random word software; random words software; random word service; random words service; random word library; random words library; random word sdk; random words sdk; random word code; random words code; random word script; random words script; random word program; random words program; random word application; random words application; random word app; random words app; random word utility; random words utility; random word helper; random words helper; random word helper tool; random words helper tool; random word helper software; random words helper software; random word helper service; random words helper service; random word helper library; random words helper library; random word helper sdk; random words helper sdk; random word helper code; random words helper code; random word helper script; random words helper script; random word helper program; random words helper program; random word helper application; random words helper application; random word helper app; random words helper app; random word helper tool; random words helper tool; random word helper utility; random words helper utility; random word helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
