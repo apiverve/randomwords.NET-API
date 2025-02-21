@@ -12,9 +12,6 @@ public class data
     [JsonProperty("definitions")]
     public string[] definitions { get; set; }
 
-    [JsonProperty("pronounciation")]
-    public string pronounciation { get; set; }
-
 }
 
 public class ResponseObj
